@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Камышина Мария](https://up.htmlacademy.ru/htmlcss/27/user/1242531).
-* Наставник: `https://htmlacademy.ru/profile/id66243`.
+* Наставник: Сергей Попенко (https://htmlacademy.ru/profile/id66243).
 
 ---
 
