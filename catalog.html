@@ -3,86 +3,109 @@
 <head>
     <title>Проект «Седона»</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href=".css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
       <nav>
-        <ul class="menu-left">
-          <li><a href="">Информация</a></li>
-          <li><a href="">Фото и видео</a></li>
-        </ul>
-        <ul class="menu-right">
-          <li><a href="#">Карта штата</a></li>
-          <li><a href="catalog.html">Гостиницы</a></li>
+        <ul class="menu">
+          <li class="menu-left"><a href="">Информация</a></li>
+          <li class="menu-left"><a href="">Фото и видео</a></li>
+          <li class="menu-right"><a href="#">Карта штата</a></li>
+          <li class="menu-right"><a href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
-      <div class="logo">
           <a href="index.html">
           <img src="img/logo.png" width="100" height="50" alt="Логотип Седона">
           </a>
-      </div>
     </header>
     
     <main>
-      <h1>Поиск гостиниц в Седоне</h1>
       <div class="container_catalog">
           <img class="container_catalog" src=".png" width="100%" height="200" alt="Форма Поиск гостиниц">
           <!--Форма Поиск гостиниц-->
       </div>
-      
-      
-      <section class="cost_1">
-        <img class="cost_1" src="amara.png" width="100" height="50" alt="AMARA RESORT & SPA">
-        <h3>AMARA RESORT & SPA</h3>
-        <p>Гостиница</p>
-        <p>от 4000</p>
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
-        <span>Звезды</span>
-        <span>Рейтинг</span>
+
+      <section>
+        <p>НАЙДЕНО:3</p>
+        <p>СОРТИРОВКА</p>
+        <ul>
+         <li><a href="#">По цене</a></li>
+         <li><a href="#">По типу</a></li>
+         <li><a href="#">По рейтингу</a></li>  
+        </ul>
+        <ul class="arrow">
+        <li></li>
+        <li></li>
+        </ul>
       </section>
 
-      <section class="cost_2">
-        <img class="cost_2" src="desert.png" width="100" height="50" alt="DESERT QUAIL INN">
-        <h3>DESERT QUAIL INN</h3>
-        <p>Мотель</p>
-        <p>от 3000</p>
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
-        <span>Звезды</span>
-        <span>Рейтинг</span>
-      </section>
+      
+      <section class="search">
+      <ul class="search">
+        <li class="search>
+          <div class="search-img">
+            <img class="cost_1" src="amara.png" width="100" height="50" alt="AMARA RESORT & SPA">
+          </div>
+          <div class="search-descr">
+            <h3>AMARA RESORT & SPA</h3>
+            <p>Гостиница</p>
+            <p>от 4000</p>
+            <a href="#">Подробнее</a>
+            <a href="#">Забронировать</a>
+          </div>
+            <p>Звезды</p>
+            <p>Рейтинг</p>
+        </li>
+        
+        <li class="search-hotels>
+          <div class="search-img">
+            <img class="cost_2" src="desert.png" width="100" height="50" alt="DESERT QUAIL INN">
+          </div>
+          <div class="search-descr">
+             <h3>DESERT QUAIL INN</h3>
+             <p>Мотель</p>
+             <p>от 3000</p>
+            <a href="#">Подробнее</a>
+            <a href="#">Забронировать</a>
+          </div>
+            <p>Звезды</p>
+            <p>Рейтинг</p>
+        </li>
 
-     <section class="cost_3">
-        <img class="cost_3" src="villas.png" width="100" height="50" alt="VILLAS AT POCO DIABLO">
-        <h3>VILLAS AT POCO DIABLO</h3>
-        <p>Апартаменты</p>
-        <p>от 2000</p>
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
-        <span>Звезды</span>
-        <span>Рейтинг</span>
-      </section>
+        <li class="search-hotels>
+          <div class="search-img">  
+            <img class="cost_3" src="villas.png" width="100" height="50" alt="VILLAS AT POCO DIABLO">
+          </div>
+          <div class="search-descr">
+            <h3>VILLAS AT POCO DIABLO</h3>
+            <p>Апартаменты</p>
+            <p>от 2000</p>
+            <a href="#">Подробнее</a>
+            <a href="#">Забронировать</a>
+          </div>
+            <p>Звезды</p>
+            <p>Рейтинг</p>
+         </li>
+      </ul>
 
 
     <footer>
-      <section class="info">
+      <div class="info">
         #VISITSEDONA<br> 
         ТЕЛ: +7(495) 666-02-66
-      </section>
-      <div class="cosial">
-         <!--иконки соц.сети-->
-        <ul>
-         <li><a href="">Твиттер</a></li>
-         <li><a href="">Фейсбук</a></li>
-         <li><a href="">Youtube</a></li>  
-        </ul>
       </div>
+        <ul>
+         <li><a href="#">Твиттер</a></li>
+         <li><a href="#">Фейсбук</a></li>
+         <li><a href="#">Youtube</a></li>  
+        </ul>
       <div class="logo htmlacademy">
-        <img src="logo.svg" width="100" height="50" alt="Логотип htmlacademy">
-        <a href="https://htmlacademy.ru/intensive/htmlcss"></a>
+        <p>WEDSITE BY</p>
+        <a href="https://htmlacademy.ru/intensive/htmlcss">
+          <img src="logo.svg" width="100" height="50" alt="Логотип htmlacademy">
+        </a>
       </div>
     </footer>
 </body>
