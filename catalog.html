@@ -22,9 +22,54 @@
     </header>
     
   <main>
-      <div class="container_catalog">
+    <div class="container_catalog">
            <!--Форма Поиск гостиниц-->
-      </div>
+      <form class="infrastructure" action="" method="post" oninput="costdayput.value=costcount.value">
+        <fieldset>
+          <legend>ИНФРАСТРУКТУРА</legend>
+            <ul class="infr">
+             <li>
+              <input type="checkbox" name="pool" id="infrastructure-pool" checked>
+              <label for="infrastructure-pool">БАССЕЙН</label>
+             </li>
+             <li>
+               <input type="checkbox" name="parking" id="infrastructure-parking">
+               <label for="infrastructure-parking">ПАРКОВКА</label>
+             </li>
+             <li>
+               <input type="checkbox" name="wi-fi" id="infrastructure-wi-fi">
+               <label for="infrastructure-wi-fi">WI-FI</label>
+            </li>
+           </ul>
+      </fieldset>
+      <fieldset>
+         <legend>ТИП ЖИЛЬЯ</legend>
+           <ul class="house">
+            <li>
+             <input type="checkbox" name="hotel" id="house-hotel" checked>
+             <label for="house-hotel">БАССЕЙН</label>
+            </li>
+            <li>
+             <input type="checkbox" name="motel" id="house-motel" checked>
+              <label for="house-motel">ПАРКОВКА</label>
+           </li>
+           <li>
+              <input type="checkbox" name="apartments" id="house-apartments" checked>
+              <label for="house-apartments">ПАРКОВКА</label>
+          </li>
+        </ul>
+      </fieldset>
+        <div class="cost">
+            <label for="costday">СТОИМОСТЬ В СУТКИ (Р)</label>
+            <ul class="cost-all">
+              <il>От 0</il>
+              <il>до 3000</il>
+            </ul>
+            <input type="range" id="costday" min="0" max="3000" step="100">
+            <button type="submit">ПОКАЗАТЬ</button>
+        </div> 
+    </form>
+  </div>
 
       <section>
         <p>НАЙДЕНО:3</p>
