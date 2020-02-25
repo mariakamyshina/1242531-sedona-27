@@ -3,7 +3,8 @@
 <head>
     <title>Проект «Седона»</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -87,17 +88,17 @@
         </ul>
       </section>
         
-      <section> 
+      <section class="form-intro"> 
           <strong>Заинтересовались?</strong>
            <p>Укажите предполагаемые даты поездки,<br>
             и мы покажем вам лучшие предложения гостиниц в Седоне</p>   
            
       
             <form class="search" action="#" method="post">
-              <button type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+              <button type="button" class="button-search">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
               <p>
                 <label for="check-in">ДАТА ЗАЕЗДА:</label>
-                  <input type="date" name="check-in">
+                  <input type="date" name="check-in" class="check-in">
                   <button type="button">календарь</button>
               </p>
               <p>
@@ -133,8 +134,8 @@
       </div>
         <ul>
          <li><a href="#">Твиттер</a></li>
-         <li><a href="#">Фейсбук</a></li>
-         <li><a href="#">Youtube</a></li>  
+         <li class="social-fb"><a href="#">Фейсбук</a></li>
+         <li class="social-yb"><a href="#">Youtube</a></li>  
         </ul>
       <div class="logo htmlacademy">
         <p>WEBSITE BY</p>
