@@ -1,186 +1,446 @@
-@font-face {
-    font-family: "PTSans", "PTSans-Bold", "Arial", sans-serif;
-    src: local("ptsans.woff") format("woff"),
-         local("ptsans.woff2") format("woff2"),
-         local("ptsansbold.woff") format("woff"),
-         local("ptsansbold.woff2") format("woff2");
-		 
-}
-
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 21px;
-	line-height: 21px;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    background-color: #f2f2f2;	
-    font-style: normal	
+   margin: 0;
+   padding: 0;
+   font-family: "PT Sans", Arial, sans-serif;
+   font-size: 14px;
+	line-height: 26px;
+   color: #000000;
+   text-transform: uppercase;
+   font-style: normal;
+   font-weight: 400;
 }
  a {
-     text-decoration: none;
+   text-decoration: none;
  }
+img { 
+   max-width: 100%; 
+}
 
  .menu {
-        font-size: 21px;
-		line-height: 21px;
-        color: rgb(0, 0, 0);
-        font-weight: bold;
-        line-height: 20px;
-        text-align: center;
-        position: absolute;
-        background-color: white;
-        list-style: none;
+   font-size: 14px;
+	line-height: 26px;
+   color: #000000;
+   font-weight: 700;
+   background-color: #ffffff;
+   list-style: none;
 }
 
 .menu a {
-    color: rgb(0, 0, 0);
+   color: #000000;
 }
   
 .menu a:hover, 
 .menu a:focus {
-    color: rgb(0, 0, 0);
+   color: #000000;
 }
 
 .promo {
-    background-image: url("img/sedona-promo.jpg");
+   background-image: url("../img/sedona-promo.jpg");
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-color: #f2f2f2;
 }
 
 .descr {
-        text-align: center;
-        position: absolute;      
+   font-size: 21px;
+   line-height: 26px;
+   color: #000000;
+   font-weight: 400;
+   background-color: #ffffff;
+   text-align: center; 
+          
 }
-      
-.reson-list {
-    list-style: none;
-	text-align: center;
-    position: absolute; 
-	
+ .descr p {
+   font-size: 14px;
+   line-height: 26px;
+   background-color: #ffffff;
+   text-align: center; 
+ }  
+
+.reson-list,
+.reson-adv {
+   list-style: none;
 }    
-
-.reson-item {
-	background-color: #eeeeee;
-}
-.reson-item h3 {
-	font-weight: bold; 
-	
-}
-
- .adv-item {
-	list-style: none;
-	text-align: center;
-    position: absolute; 
-	background-color: #ffffff;
- }
  
- .adv-item h3 {
-  font-weight: bold; 
- }
+.reson-item {
+   font-size: 14px;
+   line-height: 21px;
+   color: #333333;
+   background-color: #eeeeee;
+   text-align: center;
+}
+
+.reson-item h3 {
+   font-size: 21px;
+   line-height: 21px;
+   background-color: #eeeeee;
+	color: #000000;
+   text-align: center;
+}
 
 .reson-descr {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  position: absolute;
-  background-color: #81b3d2;
-}
- 
+   color: #ffffff;
+   text-align: center;
+   background-color: #81b3d2;
+  }
 
+.reson-descr h3 {
+   color: #ffffff;
+   text-align: center;
+   background-color: #81b3d2;
+}
+
+
+ .adv-item-1,
+ .adv-item-2,
+ .adv-item-3 {
+   font-size: 14px;
+   line-height: 21px;
+   color: #333333;
+   background-color: #ffffff;
+   text-align: center;
+ }
  
+ .adv-item-1,
+ .adv-item-2,
+ .adv-item-3 h3 {
+   font-size: 21px;
+   line-height: 21px;
+   color: #000000;
+   background-color: #ffffff;
+   text-align: center;
+ }
+
   .form-intro {
   font-size: 30px;
-  line-height: 30px;
+  line-height: 36px;
   text-align: center;
-  position: absolute;
+  color: #000000;
   background-color: #ffffff;
 }
+
+.form-intro p {
+   font-size: 14px;
+   line-height: 24px;
+   text-align: center;
+   color: #333333;
+   background-color: #ffffff;
+  }
+
+
 .button-search {
    font: inherit;
    font-size: 21px;
-   font-weight: bold;
-   vertical-align: middle;
+   line-height: 26px;
+   font-weight: 700;
    text-align: center;
-	background-color: #766357;
-	color: rgb(255, 255, 255);
+   background-color: #766357;
+   color: #ffffff;
+   border: none;
 }
-.button-search:hover {
-	background-color: #604e43;
-}
-   
+
+
 .button-search:focus {
+	background-color: #766357;
+} 
+
+.button-search:hover {
+   background-color: #604e43;
+ }
+
+.button-search:active {
 	background-color: #503e33;
 	color: #857871;
 }
+
+label {
+   font-size: 14px;
+   line-height: 26px;
+   font-weight: 700;
+   color: #000000;
+   text-align: left;
+}
   
 .check-in {
-	background-color: #f2f2f2;
-	color: #ffffff;
+   font: inherit;
+   font-size: 14px;
+   line-height: 100%;
+   font-weight: 700;
+   color: #000000;
+   background-color: #f2f2f2;
+   border: 1px solid #e5e5e5;
 }
 .check-in:hover {
-	background-color: #ebebeb;
+   background-color: #ebebeb;
 }
 .check-in:focus {
-	background-color: #ffffff;
+   background-color: #ffffff;
+}
+
+.check-out {
+   font: inherit;
+   font-size: 14px;
+   line-height: 100%;
+   font-weight: 700;
+   color: #000000;
+   background-color: #f2f2f2;
+   border: 1px solid #e5e5e5;
+ }
+ .check-out:hover {
+   background-color: #ebebeb;
+ }
+ .check-out:focus {
+   background-color: #ffffff;
+ }
+ 
+ .adults {
+   font: inherit;
+   font-size: 14px;
+   line-height: 100%;
+   font-weight: 700;
+   color: #000000;
+   background-color: #f2f2f2;
+   border: 1px solid #e5e5e5;
+ }
+ .adults:hover {
+   background-color: #ebebeb;
+ }
+ .adults:focus {
+   background-color: #ffffff;
+}
+
+ .children {
+   font: inherit;
+   font-size: 14px;
+   line-height: 100%;
+   font-weight: 700;
+   color: #000000;
+   background-color: #f2f2f2;
+   border: 1px solid #e5e5e5;
+ }
+ .children:hover {
+   background-color: #ebebeb;
+ }
+ .children:focus {
+   background-color: #ffffff;
+ }    
+
+ .button-submit {
+   font: inherit;
+   font-size: 21px;
+   line-height: 100%;
+   font-weight: 700;
+   text-align: center;
+   background-color: #81b3d2;
+   color: #ffffff;
+   border: none;
+   text-transform: uppercase;
+ }
+ 
+ .button-submit:focus {
+   background-color: #81b3d2;
+ }
+ 
+ .button-submit:hover {
+   background-color: #669ec0;
+ } 
+ 
+ .button-submit:active {
+   background-color: #5496bd;
+   color: #85b0cd;
+ }
+
+ .footer-info {
+   font-size: 21px;
+   line-height: 26px;
+   font-weight: 700;
+   background-color: #fdfdfd;
+   color: #000000;
+ }  
+
+ .footer-social {
+   list-style: none;
+   text-align: center;
+   background-color: #fdfdfd;
+ }
+
+ .footer-logo-htmlacademy {
+   background-color: #fdfdfd;
+   text-align: right;
+ }
+
+.container_catalog {
+   background-image: url("../img/filter background.jpg");
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-color: #f2f2f2;
+  
+} 
+
+
+
+
+
+.infra,
+.house {
+   list-style: none;
+   font-size: 16px;
+   line-height: 21px;
+   font-weight: 700;
+   color: #ffffff;
+   border: none;
+}
+
+.infrastructure {
+   font-size: 16px;
+   line-height: 21px;
+   font-weight: 700;
+   color: #ffffff;
+   border: none;
 }
 
 
-      <section class="form"> 
-          <strong>Заинтересовались?</strong>
-           <p>Укажите предполагаемые даты поездки,<br>
-            и мы покажем вам лучшие предложения гостиниц в Седоне</p>   
-           
-      
-            <form class="search" action="#" method="post">
-              <button type="button" class="button-search">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
-              <p>
-                <label for="check-in" class="check-in">ДАТА ЗАЕЗДА:</label>
-                  <input type="date" name="check-in">
-                  <button type="button">календарь</button>
-              </p>
-              <p>
-                <label for="check-out">ДАТА ВЫЕЗДА:</label>
-                  <input type="date" name="check-out">
-                  <button type="button">календарь</button>
-              </p>
-              <p>
-                <label for="adults">ВЗРОСЛЫЕ:</label>
-                  <input type="number" min="1" step="1" id="adults">
-                  <button type="button">+</button>
-              </p>
-              <p>
-                <label for="children">ДЕТИ:</label>
-                  <input type="number" min="0" step="1" id="children">
-                  <button type="button">+</button>
-              </p>
-            
-              <button type="submit">Найти</button>
-            </form>    
+.search-item,
+.arrow {
+   list-style: none;
+}
 
-      </section>
+.search-result h3 {
+   font-size: 21px;
+   line-height: 26px;
+   font-weight: 700;
+   color: #000000;
+}
 
-      <section>
-        <img src="img/map.jpg" width="1200" height="593" alt="Карта Седоны">
-      </section>
-    </main>
+.search-result p {
+   font-size: 12px;
+   line-height: 18px;
+   font-weight: 400;
+   color: #000000;
+}
 
-    <footer>
-      <div class="info">
-       <p>#VISITSEDONA</p>
-       <p>ТЕЛ: +7(495) 666-02-66</p> 
-      </div>
-        <ul>
-         <li><a href="#">Твиттер</a></li>
-    li .social-fb {
-      
-    }
-    ><a href="#">Фейсбук</a></li>
-         <li><a href="#">Youtube</a></li>  
-        </ul>
-      <div class="logo htmlacademy">
-        <p>WEBSITE BY</p>
-        <a href="https://htmlacademy.ru/intensive/htmlcss">
-          <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип htmlacademy">
-        </a>
-      </div>
-    </footer>
-</body>
-</html>
+.search-item {
+   font-size: 12px;
+   line-height: 18px;
+   font-weight: 400;
+   color: #000000;
+
+}
+
+.price a {
+   color: #81b3d2;
+}
+
+.price a:hover {
+   color: #81b3d2;
+ }
+
+ .price a:active {
+   color: #000000;
+}
+
+.type a {
+   color: #b2b2b2;
+   text-decoration: underline dotted;
+}
+
+.type a:hover {
+   color: #81b3d2;
+ }
+
+ .type a:active {
+   color: #000000;
+}
+
+.rating a {
+   color: #b2b2b2;
+   text-decoration: underline dotted;
+}
+
+.rating a:hover {
+   color: #81b3d2;
+ }
+
+ .rating a:active {
+   color: #000000;
+}
+
+.search {
+   list-style: none;
+   border: 1px solid #e5e5e5;
+
+}
+.search-descr {
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: 400;
+   color: #333333;
+   
+}
+
+.search-descr h3 {
+   font-size: 21px;
+   line-height: 26px;
+   font-weight: 700;
+   color: #000000;
+}
+
+.search-descr h3:focus {
+	color: #000000;
+} 
+
+.search-descr h3:hover {
+   color: #81b3d2;
+ }
+
+.search-descr h3:active {
+	color: #b2b2b2;
+}
+
+.detail a {
+   font: inherit;
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: 700;
+   text-align: center;
+   background-color: #81b3d2;
+   color: #ffffff;
+   border: none;
+}
+
+.detail a:focus {
+	background-color: #81b3d2;
+} 
+
+.detail a:hover {
+   background-color: #669ec0;
+ }
+
+.detail a:active {
+	background-color: #5496bd;
+	color: #88b6d1;
+}
+
+.booking a {
+   font: inherit;
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: 700;
+   text-align: center;
+   background-color: #766357;
+   color: #ffffff;
+   border: none;
+}
+
+.booking a:focus {
+	background-color: #766357;
+} 
+
+.booking a:hover {
+   background-color: #604e43;
+ }
+
+.booking a:active {
+	background-color: #503e33;
+	color: #857871;
+}

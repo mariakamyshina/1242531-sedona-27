@@ -3,8 +3,9 @@
 <head>
     <title>Проект «Седона»</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
         <img src="img/intro-welcome.svg" width="459" height="353" alt="приветственный текст">
       </section>
       <section class="descr">
-        <strong>Седона-небольшой городок в Аризоне,<br>
+        <strong>Седона - небольшой городок в Аризоне,<br>
           заслуживающий большего!</strong>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
       </section>
@@ -37,22 +38,22 @@
           <li class="reson-item">
               <div class="reson-descr">
                 <h3>Настоящий городок</h3>
-                <p>№1</p>
-                <p>Cедона-не аттракцион для туристов, там течет своя жизнь</p>
+                <p>- №1 -</p>
+                <p>Cедона - не аттракцион для туристов, там течет своя жизнь</p>
               </div>
               <div class="reson-img">
                 <img src="img/reson-1.jpg" width="800" height="256" alt="причина 1">
               </div>
             <ul class="reson-adv">
-              <li class="adv-item">
+              <li class="adv-item-1">
                 <h3>ЖИЛЬЕ</h3>
                 <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
               </li>
-              <li class="adv-item">
+              <li class="adv-item-2">
               <h3>ЕДА</h3>
                 <p>Всегда заказывайте фирменный бургер, вы не разачаруетесь!</p>
               </li>
-              <li class="adv-item">
+              <li class="adv-item-3">
               <h3>СУВЕНИРЫ</h3>
               <p>Сувениры не только китайского, но и местного производства!</p>
               </li>
@@ -62,7 +63,7 @@
           <li class="reson-item">
               <div class="reson-descr">
                 <h3>Там есть мост дьявола</h3>
-                <p>№2</p>
+                <p>- №2 -</p>
                 <p>Да! По нему можно пройти, если конечно, вы осмелитесь!</p>
               </div>
               <div class="reson-img-2">
@@ -71,18 +72,18 @@
          </li>
           <li class="reson-item">
                 <h3>Небольшая площадь</h3>
-                <p>№3</p>
+                <p>- №3 -</p>
                 <p>Все достопримечательности находятся очень близко</p>
           </li>
           
           <li class="reson-item">
                 <h3>Красивая дорога</h3>
-                <p>№4</p>
-                <p>Ехать в Седону из Лас Вегаса совсем не скучно!</p>
+                <p>- №4 -</p>
+                <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="reson-item">
                 <h3>Мало туристов</h3>
-                <p>№5</p>
+                <p>- №5 -</p>
                 <p>Большинство едет в Гранд Каньон и толпится там</p>
           </li>
         </ul>
@@ -103,21 +104,21 @@
               </p>
               <p>
                 <label for="check-out">ДАТА ВЫЕЗДА:</label>
-                  <input type="date" name="check-out">
+                  <input type="date" name="check-out" class="check-out">
                   <button type="button">календарь</button>
               </p>
               <p>
                 <label for="adults">ВЗРОСЛЫЕ:</label>
-                  <input type="number" min="1" step="1" id="adults">
+                  <input type="number" min="1" step="1" id="adults" class="adults">
                   <button type="button">+</button>
               </p>
               <p>
                 <label for="children">ДЕТИ:</label>
-                  <input type="number" min="0" step="1" id="children">
+                  <input type="number" min="0" step="1" id="children" class="children">
                   <button type="button">+</button>
               </p>
             
-              <button type="submit">Найти</button>
+              <button type="submit" class="button-submit">Найти</button>
             </form>    
 
       </section>
@@ -128,16 +129,16 @@
     </main>
 
     <footer>
-      <div class="info">
+      <div class="footer-info">
        <p>#VISITSEDONA</p>
        <p>ТЕЛ: +7(495) 666-02-66</p> 
       </div>
-        <ul>
-         <li><a href="#">Твиттер</a></li>
+        <ul class="footer-social">
+         <li class="social-twit"><a href="#">Твиттер</a></li>
          <li class="social-fb"><a href="#">Фейсбук</a></li>
          <li class="social-yb"><a href="#">Youtube</a></li>  
         </ul>
-      <div class="logo htmlacademy">
+      <div class="footer-logo-htmlacademy">
         <p>WEBSITE BY</p>
         <a href="https://htmlacademy.ru/intensive/htmlcss">
           <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип htmlacademy">
