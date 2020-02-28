@@ -29,9 +29,15 @@ img {
    color: #000000;
 }
   
-.menu a:hover, 
+.menu a:hover {
+   color: #81b3d2;
+}
 .menu a:focus {
-   color: #000000;
+   color: #b2b2b2;
+}
+
+.menu a:active {
+   color: #766357;
 }
 
 .promo {
@@ -101,8 +107,8 @@ img {
    text-align: center;
  }
  
- .adv-item-1,
- .adv-item-2,
+ .adv-item-1 h3,
+ .adv-item-2 h3,
  .adv-item-3 h3 {
    font-size: 21px;
    line-height: 21px;
@@ -277,12 +283,8 @@ label {
   
 } 
 
-
-
-
-
-.infra,
-.house {
+.checkbox,
+.checkbox-house {
    list-style: none;
    font-size: 16px;
    line-height: 21px;
@@ -291,7 +293,27 @@ label {
    border: none;
 }
 
-.infrastructure {
+.checkbox label,
+.checkbox-parking label,
+.checkbox-wi-fi label {
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: 400;
+   color: #ffffff;
+}
+
+.checkbox input,
+.checkbox-parking input,
+.checkbox-wi-fi input {
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: 400;
+   color: #ffffff;
+   border: 1px solid #ffffff;
+}
+
+.cost {
+   list-style: none;
    font-size: 16px;
    line-height: 21px;
    font-weight: 700;
@@ -299,11 +321,32 @@ label {
    border: none;
 }
 
-
-.search-item,
-.arrow {
-   list-style: none;
+.button-cost {
+   font: inherit;
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: 400;
+   text-align: center;
+   background-color: rgba(r, g, b, a);
+   color: #ffffff;
+   border: 1px solid #f7f6f6;
 }
+
+
+.button-search:focus {
+	background-color: #766357;
+} 
+
+.button-search:hover {
+   background-color: #604e43;
+ }
+
+.button-search:active {
+	background-color: #503e33;
+	color: #857871;
+}
+}
+
 
 .search-result h3 {
    font-size: 21px;
@@ -319,12 +362,17 @@ label {
    color: #000000;
 }
 
+
+.arrow {
+   list-style: none;
+}
+
 .search-item {
    font-size: 12px;
    line-height: 18px;
    font-weight: 400;
    color: #000000;
-
+   list-style: none;
 }
 
 .price a {
