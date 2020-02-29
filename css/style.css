@@ -96,7 +96,6 @@ img {
    background-color: #81b3d2;
 }
 
-
  .adv-item-1,
  .adv-item-2,
  .adv-item-3 {
@@ -133,7 +132,6 @@ img {
    background-color: #ffffff;
   }
 
-
 .button-search {
    font: inherit;
    font-size: 21px;
@@ -144,7 +142,6 @@ img {
    color: #ffffff;
    border: none;
 }
-
 
 .button-search:focus {
 	background-color: #766357;
@@ -279,8 +276,7 @@ label {
    background-image: url("../img/filter background.jpg");
    background-repeat: no-repeat;
    background-position: top center;
-   background-color: #f2f2f2;
-  
+   background-color: #f2f2f2; 
 } 
 
 .checkbox,
@@ -345,8 +341,6 @@ label {
 	background-color: #503e33;
 	color: #857871;
 }
-}
-
 
 .search-result h3 {
    font-size: 21px;
@@ -361,7 +355,6 @@ label {
    font-weight: 400;
    color: #000000;
 }
-
 
 .arrow {
    list-style: none;
@@ -422,8 +415,7 @@ label {
    font-size: 14px;
    line-height: 21px;
    font-weight: 400;
-   color: #333333;
-   
+   color: #333333; 
 }
 
 .search-descr h3 {
