@@ -8,6 +8,7 @@ body {
    text-transform: uppercase;
    font-style: normal;
    font-weight: 400;
+   box-sizing: content-box;
 }
  a {
    text-decoration: none;
@@ -23,6 +24,21 @@ img {
    font-weight: 700;
    background-color: #ffffff;
    list-style: none;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 1200px;
+   min-height: 56px;
+   margin-top: 0;
+   margin-bottom: 0;
+   justify-content: space-between;
+}
+
+.menu-logo {
+   order: 3;
+   width: 140px;
+   min-height: 70px;
+   margin-top: 0;
 }
 
 .menu a {
@@ -41,10 +57,18 @@ img {
 }
 
 .promo {
+   display: flex;
    background-image: url("../img/sedona-promo.jpg");
    background-repeat: no-repeat;
    background-position: top center;
    background-color: #f2f2f2;
+   background-size: 1200px 780px;
+}
+
+.promo img {
+   align-items: center;
+   margin-top: 76px;
+   margin-bottom: 79px;
 }
 
 .descr {
@@ -54,13 +78,17 @@ img {
    font-weight: 400;
    background-color: #ffffff;
    text-align: center; 
-          
+   width: 1200px;
+   min-height: 217px;          
 }
+
  .descr p {
    font-size: 14px;
    line-height: 26px;
    background-color: #ffffff;
    text-align: center; 
+   margin-top: 38px;
+   margin-bottom: 56px;
  }  
 
 .reson-list,
@@ -68,12 +96,22 @@ img {
    list-style: none;
 }    
  
-.reson-item {
+.container-reson-item {
    font-size: 14px;
    line-height: 21px;
    color: #333333;
    background-color: #eeeeee;
    text-align: center;
+   width: 1200px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.reson-item {
+   width: 400px;
+   margin-top: 50px;
+   padding: 0;
 }
 
 .reson-item h3 {
@@ -84,16 +122,58 @@ img {
    text-align: center;
 }
 
+.reson-item-1 {
+   width: 1200px;
+   height: 256px;
+   display: flex;
+   justify-content: space-between;
+} 
+
+.reson-item-2 {
+   width: 1200px;
+   height: 256px;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   margin-top: 88px;
+}
 .reson-descr {
    color: #ffffff;
    text-align: center;
    background-color: #81b3d2;
-  }
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 400px;
+}
 
 .reson-descr h3 {
+   font-size: 21px;
+   line-height: 21px;
    color: #ffffff;
    text-align: center;
    background-color: #81b3d2;
+   align-items: center;
+   margin-top: 50px;
+   width: 152px; 
+}
+
+.reson-descr p {
+   align-items: center;
+   width: 305px;
+   margin-top: 29px;
+   margin: 0;
+}
+
+.reson-adv {
+   background-color: #ffffff;
+   width: 1200px;
+   margin-top: 60px;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 
  .adv-item-1,
@@ -102,10 +182,12 @@ img {
    font-size: 14px;
    line-height: 21px;
    color: #333333;
-   background-color: #ffffff;
    text-align: center;
+   width: 400px;
+   margin-top: 60px;
  }
  
+
  .adv-item-1 h3,
  .adv-item-2 h3,
  .adv-item-3 h3 {
@@ -114,14 +196,19 @@ img {
    color: #000000;
    background-color: #ffffff;
    text-align: center;
+   margin-top: 29px;
+   margin-bottom: 32px;
  }
 
-  .form-intro {
+
+
+.form-intro {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   color: #000000;
   background-color: #ffffff;
+  margin-top: 58px;
 }
 
 .form-intro p {
@@ -130,7 +217,7 @@ img {
    text-align: center;
    color: #333333;
    background-color: #ffffff;
-  }
+}
 
 .button-search {
    font: inherit;
@@ -141,6 +228,7 @@ img {
    background-color: #766357;
    color: #ffffff;
    border: none;
+   margin-top: 53px;
 }
 
 .button-search:focus {
@@ -253,30 +341,50 @@ label {
    color: #85b0cd;
  }
 
+ .main-footer {
+    margin-top: 36px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+ }
+
  .footer-info {
    font-size: 21px;
    line-height: 26px;
    font-weight: 700;
    background-color: #fdfdfd;
    color: #000000;
+   margin-top: 36px;
+
  }  
 
  .footer-social {
    list-style: none;
    text-align: center;
    background-color: #fdfdfd;
+   width: 150px;
+   margin-top: 36px;
+   display: flex;
+   justify-content: space-between;
  }
 
  .footer-logo-htmlacademy {
    background-color: #fdfdfd;
    text-align: right;
+   width: 197px;
+   margin-top: 36px;
+   display: flex;
+   justify-content: space-between;
  }
+
 
 .container_catalog {
    background-image: url("../img/filter background.jpg");
    background-repeat: no-repeat;
    background-position: top center;
    background-color: #f2f2f2; 
+   background-size: 1200px 275px;
+   background-size: cover;
 } 
 
 .checkbox,
@@ -342,11 +450,18 @@ label {
 	color: #857871;
 }
 
+.search-result {
+   width: 1200px;
+   margin-top: 35px;
+   display: flex; 
+   justify-content: space-between;
+}
 .search-result h3 {
    font-size: 21px;
    line-height: 26px;
    font-weight: 700;
    color: #000000;
+   margin-left: 73px;
 }
 
 .search-result p {
@@ -354,10 +469,14 @@ label {
    line-height: 18px;
    font-weight: 400;
    color: #000000;
+
 }
 
 .arrow {
    list-style: none;
+   margin-right: 73px;
+   margin-top: 35px;
+   width: ;
 }
 
 .search-item {
@@ -366,7 +485,11 @@ label {
    font-weight: 400;
    color: #000000;
    list-style: none;
+   width: 667px;
+   margin-top: 42px;
+   display: flex;
 }
+
 
 .price a {
    color: #81b3d2;
@@ -406,16 +529,34 @@ label {
    color: #000000;
 }
 
-.search {
+.container {
    list-style: none;
-   border: 1px solid #e5e5e5;
+   height: auto;
+   width: 1200px;
+   display: flex; 
+   justify-content: space-between;
+   margin-top: 30px;
+   margin: 0;
+   padding: 0;
+ }
 
+
+.container-img {
+   margin-top: 30px;
+   margin-left: 73px;
 }
+
+.container-item {
+   width: 780px;
+   margin-left: 30px;
+}
+
 .search-descr {
    font-size: 14px;
    line-height: 21px;
    font-weight: 400;
    color: #333333; 
+   width: 259px;
 }
 
 .search-descr h3 {
@@ -437,6 +578,7 @@ label {
 	color: #b2b2b2;
 }
 
+
 .detail a {
    font: inherit;
    font-size: 14px;
@@ -446,6 +588,7 @@ label {
    background-color: #81b3d2;
    color: #ffffff;
    border: none;
+
 }
 
 .detail a:focus {
@@ -483,4 +626,8 @@ label {
 .booking a:active {
 	background-color: #503e33;
 	color: #857871;
+}
+
+.search-rating {
+  margin-right: 73px;
 }

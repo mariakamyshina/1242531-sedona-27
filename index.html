@@ -9,19 +9,21 @@
 </head>
 
 <body>
-    <header>
-      <nav>
-        <ul class="menu">
-          <li class="menu-left"><a href="">Информация</a></li>
-          <li class="menu-left"><a href="">Фото и видео</a></li>
-          <li class="menu-right"><a href="#">Карта штата</a></li>
-          <li class="menu-right"><a href="catalog.html">Гостиницы</a></li>
-        </ul>
-      </nav>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li class="menu-left"><a href="">Информация</a></li>
+        <li class="menu-left"><a href="">Фото и видео</a></li>
+        <li> 
           <a href="index.html">
           <img src="img/logo-sedona.svg" width="140" height="72" alt="Логотип Седона">
           </a>
-    </header>
+        </li>
+        <li class="menu-right"><a href="#">Карта штата</a></li>
+        <li class="menu-right"><a href="catalog.html">Гостиницы</a></li>
+      </ul>
+    </nav>
+  </header>
     
     <main>
       <section class="promo">
@@ -33,17 +35,19 @@
         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
       </section>
 
-      <section class="reson">
+      <section>
         <ul class="reson-list">
-          <li class="reson-item">
+          <li>
+            <div class="reson-item-1">
               <div class="reson-descr">
                 <h3>Настоящий городок</h3>
                 <p>- №1 -</p>
                 <p>Cедона - не аттракцион для туристов, там течет своя жизнь</p>
               </div>
-              <div class="reson-img">
-                <img src="img/reson-1.jpg" width="800" height="256" alt="причина 1">
+              <div>
+                <img src="img/reson-1.jpg" width="800" height="256" alt="Настоящий городок">
               </div>
+            </div>  
             <ul class="reson-adv">
               <li class="adv-item-1">
                 <h3>ЖИЛЬЕ</h3>
@@ -60,22 +64,22 @@
             </ul>
           </li>
           
-          <li class="reson-item">
+          <li class="reson-item-2">
               <div class="reson-descr">
                 <h3>Там есть мост дьявола</h3>
                 <p>- №2 -</p>
                 <p>Да! По нему можно пройти, если конечно, вы осмелитесь!</p>
               </div>
-              <div class="reson-img-2">
+              <div>
               <img src="img/bridge.jpg" width="800" height="256" alt="bridge">
               </div>
          </li>
+         <div class="container-reson-item">
           <li class="reson-item">
                 <h3>Небольшая площадь</h3>
                 <p>- №3 -</p>
                 <p>Все достопримечательности находятся очень близко</p>
           </li>
-          
           <li class="reson-item">
                 <h3>Красивая дорога</h3>
                 <p>- №4 -</p>
@@ -86,6 +90,7 @@
                 <p>- №5 -</p>
                 <p>Большинство едет в Гранд Каньон и толпится там</p>
           </li>
+          </div>
         </ul>
       </section>
         
@@ -128,7 +133,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="main-footer">
       <div class="footer-info">
        <p>#VISITSEDONA</p>
        <p>ТЕЛ: +7(495) 666-02-66</p> 
